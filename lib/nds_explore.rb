@@ -14,4 +14,5 @@ def print_first_directors_movie_titles
     p "Testing 123"
     row_index += 1
   end
+  pp directors_database
 end
