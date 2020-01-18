@@ -14,7 +14,8 @@ def print_first_directors_movie_titles
     column_index = 0
     while column_index < directors_database[row_index].length do
       p directors_database[column_index][row_index]
+      column_index += 1
     end
-
+    row_index +=1
   end
 end
