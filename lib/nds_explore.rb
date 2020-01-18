@@ -14,5 +14,4 @@ def print_first_directors_movie_titles
     p "#{row_index}"
     row_index += 1
   end
-  pp directors_database
 end
